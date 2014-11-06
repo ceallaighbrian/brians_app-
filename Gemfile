@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 gem 'rails',                '4.1.5'
 gem 'bcrypt',               '3.1.7' 
 gem 'faker',                '1.4.2'
@@ -31,4 +32,5 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'unicorn',        '4.8.3'
 end
