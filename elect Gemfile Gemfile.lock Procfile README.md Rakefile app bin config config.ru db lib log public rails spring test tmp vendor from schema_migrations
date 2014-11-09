@@ -1,0 +1,8 @@
+                   List of relations
+ Schema |       Name        |   Type   |     Owner      
+--------+-------------------+----------+----------------
+ public | schema_migrations | table    | gpdrqzidpxsdrc
+ public | users             | table    | gpdrqzidpxsdrc
+ public | users_id_seq      | sequence | gpdrqzidpxsdrc
+(3 rows)
+
